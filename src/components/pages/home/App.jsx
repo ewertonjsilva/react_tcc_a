@@ -1,34 +1,35 @@
-import './App.css';
+import './App.css'; 
+
 
 function App() {
   return (
     <div className="App">
       <header>
-        {/* Logo e navegaçãp */}
+        {/* Logo e navegação */}
         <nav className="containerNav">
-            <div class="menu">
+            <div className="menu">
                 <div>
-                    <span class="material-icons icon" id="logo">
+                    <span className="material-icons icon" id="logo">
                         fastfood
                     </span>        
                     <label for="" id="titulo">BomBurguer</label>
                 </div>                      
-                <div class="menuGrande">
-                    <a href="#" class="active">Home</a>                  
+                <div className="menuGrande">
+                    <a href="#" className="active">Home</a>                  
                     <a href="./paginas/produtos.html">Produtos</a>
                     <a href="./paginas/cadUsuario.html">Cadastrar</a>
                     <a href="./paginas/contato.html">Contato</a>
                     <a href="./paginas/login.html">Login</a>
                 </div>
-                <div class="menuMobile">
-                    <a href="javascript:void(0);" class="icon" id="mIco">
-                        <span class="material-icons icon" id="menu">
+                <div className="menuMobile">
+                    <a href="javascript:void(0);" className="icon" id="mIco">
+                        <span className="material-icons icon" id="menu">
                             menu
                         </span>
                     </a>
                 </div>                    
             </div>  
-            <div class="menuMobileExpandidon" id="mostraOpMobile">  
+            <div className="menuMobileExpandidon" id="mostraOpMobile">  
                 <a href="#" class="active">Home</a>                  
                 <a href="./paginas/produtos.html">Produtos</a>
                 <a href="./paginas/cadUsuario.html">Cadastrar</a>
@@ -79,7 +80,7 @@ function App() {
     </div>
 
         <main className="principal">
-            {/* <!-- Info local --> */}
+            {/* Info local */}
             <img className="imagemLocal" src="./imagens/local.jpg" alt="Imagem do local" />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quasi consequuntur quas numquam ullam fuga voluptas? Sunt, soluta beatae fugit ipsa eos quam ratione explicabo voluptates blanditiis, suscipit repellendus voluptatem. Hic quasi consequuntur quas numquam ullam fuga voluptas? Sunt, soluta beatae fugit ipsa eos quam ratione explicabo voluptates blanditiis, suscipit repellendus voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quasi consequuntur quas numquam ullam fuga voluptas! Hic quasi consequuntur quas numquam ullam fuga voluptas...
             </p>
@@ -87,7 +88,7 @@ function App() {
         </main>
 
         <div className="tipos">
-            {/* <!-- Tipos de produto --> */}
+            {/* Tipos de produto */}
             <span className="material-icons tipo">
                 lunch_dining
             </span>
@@ -106,9 +107,9 @@ function App() {
         </div>
         
         <div className="produtos">
-            {/* <!-- Alguns produtos --> */}
+            {/* Alguns produtos */}
             <div className="cardProd">
-                <img src="./imagens/temp/hamburger-bacon.jpg" alt="" />
+                <img src="../../imagens/temp/hamburger-bacon.jpg" alt="" />
                 <span className="descricao">Lanche</span>
                 <span>R$ 0,00</span>
             </div>
@@ -140,7 +141,7 @@ function App() {
         </div>
 
         <footer className="rodape">
-            {/* <!-- Dados local --> */}
+            {/* Dados local */}
             <div className="social">
                 <img src="./imagens/icones/facebook.svg" alt="facebook" />
                 <img src="./imagens/icones/telegram.svg" alt="" />
